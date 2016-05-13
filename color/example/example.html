@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8">
+    <title>jQuery Page Walkthrough</title>
+    <meta name="description" content="jQuery Page Walkthrough">
+    <meta name="author" content="Erwin Yusrizal">
+
+<!-- Standard CSS Includes -->
+<link type="text/css" rel="stylesheet" href="../plugins/css/jquery.pagewalkthrough.css" />
+<link type="text/css" rel="stylesheet" href="style.css"/>
+
+<!-- Standard Script Includes -->
+<script type="text/javascript" src="../plugins/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="../plugins/jquery.pagewalkthrough.js"></script>
+<script type="text/javascript" src="page.js"></script>
+
+</head>
+
+<body>
+<div class="content">
+    <h2>A title</h2>
+    <button class="btn1">Button 1</button>
+    <p>Lorem ipsum something something something darkside</p>
+    
+    <button class="btn2">Button 2</button>
+</div>
+
+
+
+
+
+
+<div id="type-First" style="display:none;">
+		<p class="tooltipTitle">歡迎體驗光的三原色</p>
+        <br><br><br>
+        <p>這個網頁你能調動左方的拉調來改變配色喔<br><br>有問題請反映至 gavin19950511@gmail.com</p>
+        
+        <br>
+        <a href="javascript:;" class="next-step" style="float:right;">下一步(Next)</a>
+        <a href="javascript:;" class="prev-step" style="float:left;">上一步(Prev)</a>
+</div>
+
+<div id="type-mid" style="display:none;">
+		<p class="tooltipTitle">中間步驟</p>
+        <p>中間步驟內容</p>
+        <br>
+        <a href="javascript:;" class="next-step" style="float:right;">下一步(Next)</a>
+        <a href="javascript:;" class="prev-step" style="float:left;">上一步(Prev)</a>
+</div>
+
+<div id="type-end" style="display:none;">
+		<p class="tooltipTitle">最後步驟</p>
+        <p>最後步驟內容</p>
+        <a href="javascript:;" class="fin-step" style="float:left;">結束</a>
+        <br>
+</div>
+
+</body>
+</html>
