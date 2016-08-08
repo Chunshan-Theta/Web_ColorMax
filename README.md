@@ -1,2 +1,3 @@
 # Web_ColorMax
-Demo : http://color-40241124.rhcloud.com/example/
+Mark Point : 1.leading step
+             2.mix color using rgb
